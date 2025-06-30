@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon"
+    "dev": "nodemon src/server.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,7 +14,9 @@
     "dotenv": "^16.6.0",
     "express": "^5.1.0",
     "http-status-codes": "^2.3.0",
-    "nodemon": "^3.1.10",
     "pg": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
